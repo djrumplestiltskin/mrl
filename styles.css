@@ -2,7 +2,7 @@
 
 *{
 	font-family: 'Raleway', sans-serif;
-	
+
 }
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Raleway', sans-serif;
@@ -58,7 +58,18 @@ Yellow: #ccc19d;
 	padding:10px;
 }
 
-
+@media(max-width:800px){
+	.maintext{
+		font-size:22px;
+	}
+	.mainblock{
+		display:block;
+		float:none;
+	}
+	.menuleft{
+		float:none;
+	}
+}
 
 
 
